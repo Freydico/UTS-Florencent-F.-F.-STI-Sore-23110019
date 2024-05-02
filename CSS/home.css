@@ -1,0 +1,46 @@
+@import "/CSS/global.css";
+
+.content-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin-left: 75px;
+}
+
+.content-center .box {
+    width: 55vw;
+    height: 30vh;
+    color: white;
+}
+
+.content-font {
+    margin-left: 25px;
+}
+
+.content-font h1 {
+    font-size: 100px;
+}
+
+.content-font p {
+    font-size: 25px;
+}
+
+.content-contains {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 150px;
+}
+
+.content-contains div {
+    width: 300px;
+    height: 350px;
+}
+
+.content-contains img {
+    max-width: 350px;
+    max-height: 350px;
+    border: 1px solid white;
+    border-radius: 15px;
+}

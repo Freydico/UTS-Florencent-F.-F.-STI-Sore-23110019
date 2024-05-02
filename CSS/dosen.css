@@ -1,0 +1,23 @@
+@import "./global.css";
+
+.content-center {
+    color: white;
+    margin-top: 100px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 300px;
+    justify-content: space-around;
+}
+
+.content-grid img {
+    height: 250px;
+}

@@ -1,0 +1,33 @@
+@import "./global.css";
+
+.content-center .box {
+    display: flex;
+    color: white;
+    
+}
+
+.content-img {
+    justify-content: left;
+    height: 900px;
+}
+
+.content-font {
+    margin-top: 125px;
+    margin-right: 150px;
+    margin-left: 150px;
+    justify-content: right;
+    text-align: justify;
+}
+
+.content-font h1 {
+    font-size: 100px;
+}
+
+.content-font p {
+    font-size: 25px;
+}
+
+.content-img {
+    display: flex;
+}
+

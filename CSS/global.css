@@ -1,14 +1,16 @@
 * {
+    border: 0;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins';
-    height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
     background-size: cover;
-    background-image: url(img/vecteezy_blue-abstract-background-blue-background-design-abstract_17023139-1.jpg);
+    background-image: url(../img/vecteezy_blue-abstract-background-blue-background-design-abstract_17023139-1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -32,7 +34,6 @@ nav img {
     height: 8%;
     border: 1px solid white;
     border-radius: 50%;
-
 }
 
 nav .nav-logo {
@@ -61,49 +62,4 @@ nav .nav-bar a {
 
 nav .nav-bar a:hover {
     color: lightgreen;
-}
-
-.content-center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90vh;
-    margin-left: 75px;
-}
-
-.content-center .box {
-    width: 55vw;
-    height: 30vh;
-    color: white;
-}
-
-.content-font {
-    margin-left: 25px;
-}
-
-.content-font h1 {
-    font-size: 100px;
-}
-
-.content-font p {
-    font-size: 25px;
-}
-
-.content-contains {
-    gap: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-right: 150px;
-}
-
-.content-contains div {
-    width: 300px;
-    height: 350px;
-}
-
-.content-contains img {
-    max-width: 350px;
-    max-height: 350px;
-    border: 1px solid white;
-    border-radius: 15px;
 }
